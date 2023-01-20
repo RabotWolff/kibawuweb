@@ -9,6 +9,7 @@ import Cross from "./images/Cross.svg";
 import Heart from "./images/Heart.svg";
 import highlight1 from './images/Highlight1.svg';
 import highlight2 from './images/Highlight2.svg';
+import beitrittErklaerung from './files/kibawu_beitrittserklaerung.pdf';
 import train01 from './images/lokomotive.png';
 import ballonstationwaggon from './images/ballonstationwaggon.png';
 
@@ -85,7 +86,7 @@ function App() {
 
  {/**  <!-- Hero -->*/}
   <section
-    className="md:mt-0 flex flex-col justify-center text-center md:text-left md:flex-col md:justify-between md:items-center lg:flex-row  px-0 bg-secondary">
+    className="md:mt-0 flex flex-col justify-center text-center md:text-left md:flex-col md:justify-between md:items-center lg:flex-row   bg-gray-200">
     
     <div className="mb-8 mr-0 md:mb-0  md:mt-0 md:basis-1/2">
       
@@ -93,21 +94,23 @@ function App() {
       
     </div>
 
-    <div className="flex-1 md:basis-1/2 md:pr-12 md:pl-12">
+    <div className="flex-1 md:basis-1/2 md:pr-12 md:pl-12 px-8 md:px-8">
       <h1 className="font-pt-serif text-4xl font-bold mb-7">
       Kinderbahnhof Wunderland <br/>
         <span className="bg-underline1 text-3xl bg-left-bottom bg-no-repeat pb-2 bg-100%">
          Förderverein
         </span>
       </h1>
-      <p className="font-pt-serif font-normal mb-7">
-        Spring auf unseren Zug auf! Wir freuen uns über neue Mitglieder:innen und schöne Ideen im Förderverein! Unser Ziel ist die Identifikation der Eltern mit der Einrichtung, Impulse für Aktionen und die Förderung über das Kita-Budget hinaus.
-        Sonnensegel und Kinderküche wurden mit dem Förderverein finanziet und werden so auch erhalten, Aktionen und Feste werden durch unser Engagement initiert und unterstützt.
+      <p className="font-pt-serif font-normal text-base md:text-lg mb-7 text-left">
+        Steig ein. Wir freuen uns über neue Mitglieder:innen und schöne Ideen im Förderverein! Unser Ziel ist die Identifikation der Eltern mit der Einrichtung, Impulse für Aktionen und die Förderung über das Kita-Budget hinaus.
+        <br/>Fragen? Anregung? Schreib eine Mail!
       </p>
       <div className="font-montserrat mb-10">
+        <a href="mailto:info@kibawu.org">
         <button className="bg-black px-6 py-4 rounded-lg border-2 border-black border-solid text-white mr-2 mb-2">
          info@kibawu.org
         </button>
+        </a>
       {/**
         <button className="px-6 py-4 border-2 border-black border-solid rounded-lg">
           Secondary action
@@ -122,9 +125,9 @@ function App() {
  {/**  <!-- How it works -->*/}
 
  <section
-    className="md:mt-0 flex flex-col-reverse md:flex-col-reverse justify-center text-center md:text-left md:justify-between md:items-center lg:flex-row  px-0 bg-black">
+    className="md:mt-0 flex flex-col-reverse md:flex-col-reverse justify-center text-center md:text-left md:justify-between md:items-center lg:flex-row  bg-black">
     
-    <div className="flex-1 md:basis-1/2 md:pl-12 text-white">
+    <div className="flex-1 md:basis-1/2 text-white md:pr-8 px-8 md:px-16"  >
 
       <h1 className="font-pt-serif text-4xl font-bold mb-7">
       Deine Unterstützung! <br/>
@@ -132,13 +135,27 @@ function App() {
         Für nur 12€ im Jahr Mitglied werden.
         </span>
       </h1>
-      <p className="font-pt-serif font-normal mb-7">
-      Ideen einbringen, Wünsche loswerden, anpacken, oder einfach nur beobachten. Lass uns gemeinsam Pläne schmieden. Mach mit! 
+      <p className="font-pt-serif font-normal mb-7 text-left  text-base md:text-lg">
+      Der Verein hat bereits eine Vielzahl von Projekten erfolgreich umgesetzt. Dazu gehören sowohl kleine als auch große Anschaffungen, wie zum Beispiel die Kinderküche oder Sonnensegel, sowie die Organisation von Kürbisfesten und anderen Veranstaltungen.
+      <br/><br/>
 
+      
+      Auch Du kannst Ideen einbringen, Wünsche loswerden, anpacken, oder einfach nur beobachten. Lass uns gemeinsam Pläne schmieden. Mach mit! 
+
+Der Mitgliedsantrag kann im Kindergarten abgegeben werden oder als Mailanhang an info@kibawu.org gesendet werden.
+<br/><br/>
+      
       </p>
       <div className="font-montserrat mb-10">
+      <a href={beitrittErklaerung} target="_blank">
         <button className="bg-white px-6 py-4 rounded-lg border-2 border-white border-solid text-black mr-2 mb-2">
-         Mitgliederantrag herunterladen
+         Mitgliedsantrag herunterladen
+        </button>
+        </a>
+
+        <br/><br/>
+        <button className="bg-white px-6 py-4 rounded-lg border-2 border-white border-solid text-black mr-2 mb-2">
+         Satzung durchlesen
         </button>
       {/**
         <button className="px-6 py-4 border-2 border-black border-solid rounded-lg">
@@ -354,7 +371,44 @@ function App() {
 
 */}
 
+<section
+    className="md:mt-0 flex flex-col-reverse md:flex-col-reverse justify-center text-center pt-20 md:justify-between md:items-center lg:flex-row px-10 md:px-36 bg-gray-200">
+    
+    <div className="flex-1 md:basis-1/2 md:pl-12 text-black md:pr-8" >
+
+      <h1 className="font-pt-serif text-4xl font-bold mb-7">
+      Lust zu spenden?! <br/>
+        <span className="bg-underline1 text-3xl bg-left-bottom bg-no-repeat pb-2  bg-100%">
+        Wir sind gemmeinnützig und können auch Spendenquittungen ausstellen.
+        </span>
+      </h1>
+      <p className="font-pt-serif font-normal mb-7 text-left">
+      Setz Dich gerne mit uns in Verbindung. Hier sind die Kontodaten. Gib als Verwendungszweck Spende an und gegebenenfalls den Verwendungszweck.
+      Mitgliedsbeitrag noch nicht überwiesen? Dann gib als Verwendungszweck Mitgliedsbeitrag und Deinen Namen an. Übrigens, Du kannst hier freiwillig auch mehr als die 12€ überweisen wenn Du willst.
+      <br/><br/>
+
+      
+      Kontoinhaber: FV Kinderbahnhof Wunderland e.V.<br/>
+IBAN: DE95 2519 0001 0693 1820 00<br/>
+BIC: VOHADE2H
+<br/><br/>
+      
+      </p>
+    
+     
+
+     
+    </div>
+
+
+
+  </section>
+
+
 {/**<!-- Footer --> */}
+
+
+
 
   <section className="bg-neutral-900 sectionSize">
     <div className="mb-4">
@@ -377,7 +431,9 @@ function App() {
 
     </div>
     <div className="text-white font-montserrat text-sm">
-      © 2023 Förderverein Kinderbahnhof Wunderland.
+     <a href=""> Impressum</a> | <a href=""> Datenschutz</a>
+     <br/><br/>
+     <p>© 2023 Förderverein Kinderbahnhof Wunderland.</p>
     </div>
   </section>
 
