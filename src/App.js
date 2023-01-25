@@ -121,7 +121,7 @@ function App() {
             </h1>
             <p className="font-pt-serif font-normal mb-7 text-left">
               Setz Dich gerne mit uns in Verbindung. Hier sind die Kontodaten. Gib als Verwendungszweck Spende an und gegebenenfalls den Verwendungszweck.
-              Mitgliedsbeitrag noch nicht überwiesen? Dann gib als Verwendungszweck Mitgliedsbeitrag und Deinen Namen an. Übrigens, wenn Du willst kannst Du auch mehr als die 12€ überweisen.
+              Mitgliedsbeitrag noch nicht überwiesen? Dann gib als Verwendungszweck Mitgliedsbeitrag und Deinen Namen an. 
               <br /><br />
 
 
