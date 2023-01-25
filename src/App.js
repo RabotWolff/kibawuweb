@@ -10,8 +10,8 @@ import './App.css';
 import beitrittErklaerung from './files/kibawu_beitrittserklaerung.pdf';
 import satzung from './files/Satzung_30042015.pdf';
 
-import train01 from './images/lokomotive.png';
-import ballonstationwaggon from './images/ballonstationwaggon.png';
+import train01 from './images/lokomotive.jpg';
+import ballonstationwaggon from './images/ballonstationwaggon.jpg';
 
 function App() {
   const [sanityContent, setSanityContent] = useState(null);
