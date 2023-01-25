@@ -2,14 +2,25 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import { BrowserRouter } from "react-router-dom";
+import Impressum from './Impressum';
+import Datenschutz from './Datenschutz';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+<Routes>
+    <Route path="/"
+              element={ <App/>}/>
+        <Route path="/impressum"
+              element={ <Impressum/>}/>
+              
+                <Route path="/datenschutz"
+              element={ <Datenschutz/>}/>
+</Routes>
     </BrowserRouter>
   </React.StrictMode>
 );
