@@ -48,7 +48,7 @@ function App() {
               </span>
             </h1>
             <p className="font-pt-serif font-normal text-base md:text-lg mb-7 text-left">
-              Steig ein. Wir freuen uns über neue Mitglieder:innen und schöne Ideen im Förderverein! Unser Ziel ist die Identifikation der Eltern mit der Einrichtung, Impulse für Aktionen und die Förderung über das Kita-Budget hinaus.
+              Steig ein. Wir freuen uns über neue Mitglieder und schöne Ideen im Förderverein! Unser Ziel ist die Identifikation der Eltern mit der Einrichtung, Impulse für Aktionen und die Förderung über das Kita-Budget hinaus.
               <br />Fragen? Anregung? Schreib eine Mail!
             </p>
             <div className="font-montserrat mb-10">

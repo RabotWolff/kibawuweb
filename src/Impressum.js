@@ -44,7 +44,7 @@ Zeißstraße 48<br/>
 <p className="my-5">
 Vertreten durch:<br/>
 1. Vorsitzender: Daniel Wolff<br/>
-2. Vorsitzende: Fatma Kulac-Tanove<br/>
+2. Vorsitzende: Fatma Kulac-Tanova<br/>
 3. Kassiererin: Nathalie Wartmann <br/>
 </p>
 
