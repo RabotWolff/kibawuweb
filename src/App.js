@@ -8,10 +8,13 @@ import Footer from "./Footer";
 import './App.css';
 
 import beitrittErklaerung from './files/kibawu_beitrittserklaerung.pdf';
+import freistellung from './files/Freistellungsbescheinigung.pdf';
 import satzung from './files/Satzung_30042015.pdf';
 
 import train01 from './images/lokomotive.jpg';
 import ballonstationwaggon from './images/ballonstationwaggon.jpg';
+import popkornplakat from './images/Plakat11.jpg';
+import huepfburgplakat from './images/Plakat21.jpg';
 
 function App() {
   const [sanityContent, setSanityContent] = useState(null);
@@ -99,6 +102,15 @@ function App() {
                   Satzung durchlesen
                 </button>
               </a>
+
+              <br /><br />
+              <a href={freistellung} target="_blank">
+                <button className="bg-white px-6 py-4 rounded-lg border-2 border-white border-solid text-black mr-2 mb-2">
+                  Freistellungsbescheinigung
+                </button>
+              </a>
+
+              
             </div>
           </div>
 
@@ -135,19 +147,31 @@ function App() {
               Anstehende Termine <br />
               </h1>
               <h2 className="font-pt-serif text-xl font-bold mb-7">
-              Infoveranstaltung am 10.02.2023 um 15h
+              Sommerfest am 06.07.2023 ab 16 Uhr!
               </h2>
-              <p className="font-pt-serif font-normal mb-20 text-left">
-            Das Treffen im Kinderbahnhof steht unter dem Motto Neustart. 
-            Wer sind wir, wer ist Mitglied und wer möchte mitmachen? 
-            Wie können wir mit dem Verein bestmöglich den Kinderbahnhof Wunderland unterstützen?
-            Zwischen 15h und 16h können wir uns kennen lernen. Komm einfach vorbei!
-            
+              <p className="font-pt-serif font-normal mb-20 text-left">          
             </p>
 
           </div>
 
         
+
+        </section>
+
+        <section
+          className="w-full md:mt-0 flex flex-col justify-center text-center md:text-left md:flex-col md:justify-between md:items-center lg:flex-row   bg-gray-200">
+
+          <div className="mb-8 mr-1 md:mb-0  md:mt-0 md:basis-1/2">
+
+            <img className="object-cover w-full" src={popkornplakat} alt="Popkornplakat" />
+
+          </div>
+
+          <div className="mb-8  ml-1 md:mb-0  md:mt-0 md:basis-1/2">
+
+            <img className="object-cover w-full" src={huepfburgplakat} alt="Huepfburgplakat" />
+
+          </div>
 
         </section>
         <Footer />
