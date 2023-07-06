@@ -159,17 +159,17 @@ function App() {
         </section>
 
         <section
-          className="w-full md:mt-0 flex flex-col justify-center text-center md:text-left md:flex-col md:justify-between md:items-center lg:flex-row   bg-gray-200">
+          className="bg-black  w-full md:mt-0 flex flex-col justify-center text-center md:text-left md:flex-col md:justify-between md:items-center lg:flex-row   bg-gray-200">
 
-          <div className="mb-8 mr-1 md:mb-0  md:mt-0 md:basis-1/2">
+          <div className="mb-8 mt-8 md:mb-16  md:mt-16 md:basis-1/2 grid place-items-center">
 
-            <img className="object-cover w-full" src={popkornplakat} alt="Popkornplakat" />
+            <img className="object-cover w-3/4" src={popkornplakat} alt="Popkornplakat" />
 
           </div>
 
-          <div className="mb-8  ml-1 md:mb-0  md:mt-0 md:basis-1/2">
+          <div className="mb-8 mt-8 md:mb-16  md:mt-16 md:basis-1/2 grid place-items-center">
 
-            <img className="object-cover w-full" src={huepfburgplakat} alt="Huepfburgplakat" />
+            <img className="object-cover w-3/4" src={huepfburgplakat} alt="Huepfburgplakat" />
 
           </div>
 
