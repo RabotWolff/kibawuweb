@@ -147,7 +147,7 @@ function App() {
               Anstehende Termine <br />
               </h1>
               <h2 className="font-pt-serif text-xl font-bold mb-7">
-              Sommerfest am 06.07.2023 ab 16 Uhr!
+              Sommerfest am 06.07.2023 ab 15 Uhr!
               </h2>
               <p className="font-pt-serif font-normal mb-20 text-left">          
             </p>
