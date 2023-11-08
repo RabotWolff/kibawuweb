@@ -147,7 +147,7 @@ function App() {
               Anstehende Termine <br />
               </h1>
               <h2 className="font-pt-serif text-xl font-bold mb-7">
-              Sommerfest am 07.07.2023 ab 15 Uhr!
+              Jahreshauptversammlung am 30.11.2023 von 15 - 16 Uhr im Kinderbahnhof Wunderland Zeißstraße.
               </h2>
               <p className="font-pt-serif font-normal mb-20 text-left">          
             </p>
